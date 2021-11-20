@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingWasmApp", "BlazingWasmApp\BlazingWasmApp.csproj", "{D260EA13-3274-4A03-B7CF-8C70928541D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{72A4D6A1-2849-4222-A489-30CC083213D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D260EA13-3274-4A03-B7CF-8C70928541D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D260EA13-3274-4A03-B7CF-8C70928541D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D260EA13-3274-4A03-B7CF-8C70928541D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D260EA13-3274-4A03-B7CF-8C70928541D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A4D6A1-2849-4222-A489-30CC083213D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A4D6A1-2849-4222-A489-30CC083213D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A4D6A1-2849-4222-A489-30CC083213D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A4D6A1-2849-4222-A489-30CC083213D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {219F59A3-825C-4A90-921C-88523E362D22}
+	EndGlobalSection
+EndGlobal

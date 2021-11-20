@@ -1,0 +1,36 @@
+﻿@page "/counter"
+@using MyLib
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">+</button>
+<button class="btn btn-primary" @onclick="DecrementCount">-</button>
+
+
+<p>@person?.ToString()</p>
+<button class="btn btn-primary" @onclick="ShowPerson">Show Person</button>
+
+@code {
+    private int currentCount = 0;
+    private Person? person;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private void DecrementCount()
+    {
+        currentCount--;
+    }
+
+    private void ShowPerson()
+    {
+        person = UsefulStuff.NewPerson();
+        person.Name += 2;
+    }
+}
